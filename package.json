@@ -1,0 +1,19 @@
+{
+  "name": "react-app-from-scratch",
+  "version": "0.1.0",
+  "description": "从零构建一个react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bob2100/react-app-from-scratch.git"
+  },
+  "author": "wenbo.wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bob2100/react-app-from-scratch/issues"
+  },
+  "homepage": "https://github.com/Bob2100/react-app-from-scratch#readme"
+}
