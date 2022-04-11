@@ -4,7 +4,8 @@
   "description": "从零构建一个react app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Bob2100/react-app-from-scratch/issues"
   },
-  "homepage": "https://github.com/Bob2100/react-app-from-scratch#readme"
+  "homepage": "https://github.com/Bob2100/react-app-from-scratch#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
 }
